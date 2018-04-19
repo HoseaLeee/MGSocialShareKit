@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB008FA4208865F300742842 /* MGSocialShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB008FA2208865E500742842 /* MGSocialShareKit.framework */; };
+		BB008FA5208865F300742842 /* MGSocialShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB008FA2208865E500742842 /* MGSocialShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BB298C07208583850004CE90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB298C06208583850004CE90 /* AppDelegate.m */; };
+		BB298C0A208583850004CE90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB298C09208583850004CE90 /* ViewController.m */; };
+		BB298C0D208583850004CE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB298C0B208583850004CE90 /* Main.storyboard */; };
+		BB298C0F208583870004CE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB298C0E208583870004CE90 /* Assets.xcassets */; };
+		BB298C12208583870004CE90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB298C10208583870004CE90 /* LaunchScreen.storyboard */; };
+		BB298C15208583870004CE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB298C14208583870004CE90 /* main.m */; };
+		BB298C1F208583870004CE90 /* MGSocialShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB298C1E208583870004CE90 /* MGSocialShareDemoTests.m */; };
+		BB298C2A208583870004CE90 /* MGSocialShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB298C29208583870004CE90 /* MGSocialShareDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB298C1B208583870004CE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB298BFA208583850004CE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB298C01208583850004CE90;
+			remoteInfo = MGSocialShareDemo;
+		};
+		BB298C26208583870004CE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB298BFA208583850004CE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB298C01208583850004CE90;
+			remoteInfo = MGSocialShareDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB008DCB20859D1B00742842 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BB008FA5208865F300742842 /* MGSocialShareKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB008F032087260100742842 /* MGSocialShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MGSocialShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB008FA2208865E500742842 /* MGSocialShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MGSocialShareKit.framework; sourceTree = "<group>"; };
+		BB298C02208583850004CE90 /* MGSocialShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGSocialShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB298C05208583850004CE90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB298C06208583850004CE90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB298C08208583850004CE90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB298C09208583850004CE90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB298C0C208583850004CE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB298C0E208583870004CE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB298C11208583870004CE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB298C13208583870004CE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB298C14208583870004CE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB298C1A208583870004CE90 /* MGSocialShareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGSocialShareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB298C1E208583870004CE90 /* MGSocialShareDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGSocialShareDemoTests.m; sourceTree = "<group>"; };
+		BB298C20208583870004CE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB298C25208583870004CE90 /* MGSocialShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGSocialShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB298C29208583870004CE90 /* MGSocialShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGSocialShareDemoUITests.m; sourceTree = "<group>"; };
+		BB298C2B208583870004CE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB298BFF208583850004CE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB008FA4208865F300742842 /* MGSocialShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB298C17208583870004CE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB298C22208583870004CE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB008D392085852700742842 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB008F032087260100742842 /* MGSocialShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB008FA1208865E500742842 /* MGSocialShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB008FA2208865E500742842 /* MGSocialShareKit.framework */,
+			);
+			path = MGSocialShareKit;
+			sourceTree = "<group>";
+		};
+		BB298BF9208583850004CE90 = {
+			isa = PBXGroup;
+			children = (
+				BB298C04208583850004CE90 /* MGSocialShareDemo */,
+				BB298C1D208583870004CE90 /* MGSocialShareDemoTests */,
+				BB298C28208583870004CE90 /* MGSocialShareDemoUITests */,
+				BB298C03208583850004CE90 /* Products */,
+				BB008D392085852700742842 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB298C03208583850004CE90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C02208583850004CE90 /* MGSocialShareDemo.app */,
+				BB298C1A208583870004CE90 /* MGSocialShareDemoTests.xctest */,
+				BB298C25208583870004CE90 /* MGSocialShareDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB298C04208583850004CE90 /* MGSocialShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C05208583850004CE90 /* AppDelegate.h */,
+				BB298C06208583850004CE90 /* AppDelegate.m */,
+				BB298C08208583850004CE90 /* ViewController.h */,
+				BB298C09208583850004CE90 /* ViewController.m */,
+				BB008FA1208865E500742842 /* MGSocialShareKit */,
+				BB298C0B208583850004CE90 /* Main.storyboard */,
+				BB298C0E208583870004CE90 /* Assets.xcassets */,
+				BB298C10208583870004CE90 /* LaunchScreen.storyboard */,
+				BB298C13208583870004CE90 /* Info.plist */,
+				BB298C14208583870004CE90 /* main.m */,
+			);
+			path = MGSocialShareDemo;
+			sourceTree = "<group>";
+		};
+		BB298C1D208583870004CE90 /* MGSocialShareDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C1E208583870004CE90 /* MGSocialShareDemoTests.m */,
+				BB298C20208583870004CE90 /* Info.plist */,
+			);
+			path = MGSocialShareDemoTests;
+			sourceTree = "<group>";
+		};
+		BB298C28208583870004CE90 /* MGSocialShareDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB298C29208583870004CE90 /* MGSocialShareDemoUITests.m */,
+				BB298C2B208583870004CE90 /* Info.plist */,
+			);
+			path = MGSocialShareDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB298C01208583850004CE90 /* MGSocialShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB298C2E208583870004CE90 /* Build configuration list for PBXNativeTarget "MGSocialShareDemo" */;
+			buildPhases = (
+				BB298BFE208583850004CE90 /* Sources */,
+				BB298BFF208583850004CE90 /* Frameworks */,
+				BB298C00208583850004CE90 /* Resources */,
+				BB008DCB20859D1B00742842 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSocialShareDemo;
+			productName = MGSocialShareDemo;
+			productReference = BB298C02208583850004CE90 /* MGSocialShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB298C19208583870004CE90 /* MGSocialShareDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB298C31208583870004CE90 /* Build configuration list for PBXNativeTarget "MGSocialShareDemoTests" */;
+			buildPhases = (
+				BB298C16208583870004CE90 /* Sources */,
+				BB298C17208583870004CE90 /* Frameworks */,
+				BB298C18208583870004CE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB298C1C208583870004CE90 /* PBXTargetDependency */,
+			);
+			name = MGSocialShareDemoTests;
+			productName = MGSocialShareDemoTests;
+			productReference = BB298C1A208583870004CE90 /* MGSocialShareDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB298C24208583870004CE90 /* MGSocialShareDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB298C34208583870004CE90 /* Build configuration list for PBXNativeTarget "MGSocialShareDemoUITests" */;
+			buildPhases = (
+				BB298C21208583870004CE90 /* Sources */,
+				BB298C22208583870004CE90 /* Frameworks */,
+				BB298C23208583870004CE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB298C27208583870004CE90 /* PBXTargetDependency */,
+			);
+			name = MGSocialShareDemoUITests;
+			productName = MGSocialShareDemoUITests;
+			productReference = BB298C25208583870004CE90 /* MGSocialShareDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB298BFA208583850004CE90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Hosea Lee";
+				TargetAttributes = {
+					BB298C01208583850004CE90 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					BB298C19208583870004CE90 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BB298C01208583850004CE90;
+					};
+					BB298C24208583870004CE90 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BB298C01208583850004CE90;
+					};
+				};
+			};
+			buildConfigurationList = BB298BFD208583850004CE90 /* Build configuration list for PBXProject "MGSocialShareDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB298BF9208583850004CE90;
+			productRefGroup = BB298C03208583850004CE90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB298C01208583850004CE90 /* MGSocialShareDemo */,
+				BB298C19208583870004CE90 /* MGSocialShareDemoTests */,
+				BB298C24208583870004CE90 /* MGSocialShareDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB298C00208583850004CE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB298C12208583870004CE90 /* LaunchScreen.storyboard in Resources */,
+				BB298C0F208583870004CE90 /* Assets.xcassets in Resources */,
+				BB298C0D208583850004CE90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB298C18208583870004CE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB298C23208583870004CE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB298BFE208583850004CE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB298C0A208583850004CE90 /* ViewController.m in Sources */,
+				BB298C15208583870004CE90 /* main.m in Sources */,
+				BB298C07208583850004CE90 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB298C16208583870004CE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB298C1F208583870004CE90 /* MGSocialShareDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB298C21208583870004CE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB298C2A208583870004CE90 /* MGSocialShareDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB298C1C208583870004CE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB298C01208583850004CE90 /* MGSocialShareDemo */;
+			targetProxy = BB298C1B208583870004CE90 /* PBXContainerItemProxy */;
+		};
+		BB298C27208583870004CE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB298C01208583850004CE90 /* MGSocialShareDemo */;
+			targetProxy = BB298C26208583870004CE90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB298C0B208583850004CE90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB298C0C208583850004CE90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB298C10208583870004CE90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB298C11208583870004CE90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB298C2C208583870004CE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB298C2D208583870004CE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB298C2F208583870004CE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2T4HFUX6K;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MGSocialShareDemo/MGSocialShareKit",
+				);
+				INFOPLIST_FILE = MGSocialShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hosealee.MGSocialShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB298C30208583870004CE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2T4HFUX6K;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MGSocialShareDemo/MGSocialShareKit",
+				);
+				INFOPLIST_FILE = MGSocialShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hosealee.MGSocialShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB298C32208583870004CE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGSocialShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hosealee.MGSocialShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGSocialShareDemo.app/MGSocialShareDemo";
+			};
+			name = Debug;
+		};
+		BB298C33208583870004CE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGSocialShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hosealee.MGSocialShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGSocialShareDemo.app/MGSocialShareDemo";
+			};
+			name = Release;
+		};
+		BB298C35208583870004CE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGSocialShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hosealee.MGSocialShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGSocialShareDemo;
+			};
+			name = Debug;
+		};
+		BB298C36208583870004CE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGSocialShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hosealee.MGSocialShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGSocialShareDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB298BFD208583850004CE90 /* Build configuration list for PBXProject "MGSocialShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB298C2C208583870004CE90 /* Debug */,
+				BB298C2D208583870004CE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB298C2E208583870004CE90 /* Build configuration list for PBXNativeTarget "MGSocialShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB298C2F208583870004CE90 /* Debug */,
+				BB298C30208583870004CE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB298C31208583870004CE90 /* Build configuration list for PBXNativeTarget "MGSocialShareDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB298C32208583870004CE90 /* Debug */,
+				BB298C33208583870004CE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB298C34208583870004CE90 /* Build configuration list for PBXNativeTarget "MGSocialShareDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB298C35208583870004CE90 /* Debug */,
+				BB298C36208583870004CE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB298BFA208583850004CE90 /* Project object */;
+}
