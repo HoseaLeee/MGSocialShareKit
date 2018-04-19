@@ -3,6 +3,9 @@
 MGSocialShareKit 基于[友盟社会化分享](https://mobile.umeng.com/social) 封装的 iOS 分享库，意在解决项目组件化过程中遇到的 Pod 库中 UMengSocial 5.0出现的各种问题，以及Objective-C、swift混合项目中静态库编译错误问题。
 > [!] The 'XXX' target has transitive dependencies that include static binaries: (.../xxx.a)
 
+## 支持平台
+
+微信、QQ、新浪微博、钉钉、支付宝、人人网、豆瓣、短信、邮件、有道云笔记、印象笔记、点点虫、领英、易信/朋友圈、腾讯微博
 
 ## 安装
 
@@ -293,6 +296,10 @@ usingHttpsWhenShareContent:(BOOL)isUsingHttpsWhenShareContent;
    paddingToVerticalParentBorder:(CGFloat)paddingToVerticalParentBorder;
 
  ```
+## 后记
+
+由于账号问题一些平台的测试未进行。
+
 ## 协议
 
 MGSocialShareKit 被许可在 MIT 协议下使用。查阅 LICENSE 文件来获得更多信息。
