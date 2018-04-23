@@ -21,9 +21,9 @@ iOS 8以上
   $ pod install
 
 
-## 对应版本SDK版本
+## 对应友盟SDK版本
 
-| MGSocialShareKit 版本 | 友盟 版本 |  
+| MGSocialShareKit 版本 | 友盟SDK 版本 |  
 |:----------------:|:-----|
 | 1.0.0 | 6.9.0 |
 
