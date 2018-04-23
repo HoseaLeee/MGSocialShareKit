@@ -7,6 +7,10 @@ MGSocialShareKit 基于[友盟社会化分享](https://mobile.umeng.com/social) 
 
 微信、QQ、新浪微博、钉钉、支付宝、人人网、豆瓣、短信、邮件、有道云笔记、印象笔记、点点虫、领英、易信/朋友圈、腾讯微博
 
+## 安装要求
+
+iOS 8以上
+
 ## 安装
 
 你可以在 Podfile 中加入下面一行代码来使用 MGSocialShareKit
@@ -16,6 +20,12 @@ MGSocialShareKit 基于[友盟社会化分享](https://mobile.umeng.com/social) 
 然后运行命令：
   $ pod install
 
+
+## 对应版本SDK版本
+
+| MGSocialShareKit 版本 | 友盟 版本 |  
+|:----------------:|:-----|
+| 1.0.0 | 6.9.0 |
 
 ## 相关的使用教程和 Demo
 
