@@ -1,8 +1,9 @@
 use_frameworks!
 
 target 'MGSocialShareKit_Example' do
-  pod 'MGSocialShareKit', :path => '../'
+  #pod 'MGSocialShareKit', :path => '../'
 
+pod 'MGSocialShareKit'
   target 'MGSocialShareKit_Tests' do
     inherit! :search_paths
 

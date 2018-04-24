@@ -301,7 +301,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MGSocialShareKit_Example/Pods-MGSocialShareKit_Example-frameworks.sh",
-				"${PODS_ROOT}/../../MGSocialShareKit/Classes/MGSocialShareKit.framework",
+				"${PODS_ROOT}/MGSocialShareKit/MGSocialShareKit/MGSocialShareKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

@@ -39,18 +39,15 @@
 		3C10DE8CBF7F6ADABF71006309C27D0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C62021AEE4EE9140AAB18803F9453DF /* Pods-MGSocialShareKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGSocialShareKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F2F2D85F07E6B68B75AC4F7CBE1DF6C /* Pods-MGSocialShareKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGSocialShareKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		62B9FE4E59692C33EB46757C95092B84 /* MGSocialShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGSocialShareKit.framework; path = MGSocialShareKit/Classes/MGSocialShareKit.framework; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7916E3BC93C6DFBDB6E733EF0E82FE70 /* MGSocialShareKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MGSocialShareKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7F7157C2FEA1E38AAEAF29F05AB66249 /* Pods-MGSocialShareKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGSocialShareKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8132CCAEE209F685B5443A00F22D5B28 /* Pods_MGSocialShareKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGSocialShareKit_Tests.framework; path = "Pods-MGSocialShareKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B035FF8E1500BABDC2791C984D38B03 /* MGSocialShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGSocialShareKit.framework; path = MGSocialShareKit/MGSocialShareKit.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD941192F005AD9283662CB2AC2C343 /* Pods-MGSocialShareKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGSocialShareKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9F710F1CEA5CF8C16DF104C9A8DD81E5 /* Pods-MGSocialShareKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGSocialShareKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C54CE96FD0C8B11C9DED3D04CE9A5405 /* Pods-MGSocialShareKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGSocialShareKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C9F3C2672C0E4BC40B6ACB8AA9C3ECB4 /* Pods-MGSocialShareKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGSocialShareKit_Example-dummy.m"; sourceTree = "<group>"; };
-		CF600BE79B9AA223843D39F4F0C314A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E0A899BF6B6BE0653D96C6AA129EC5ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E7DD999CA9EC80A5ACA890D4DE38A083 /* Pods-MGSocialShareKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGSocialShareKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		F2D9B530FD6C21BA50567296B087A9CF /* Pods-MGSocialShareKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGSocialShareKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F6789F2D32FCD1C9017D816845A6BFD2 /* Pods-MGSocialShareKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGSocialShareKit_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -83,14 +80,6 @@
 				8132CCAEE209F685B5443A00F22D5B28 /* Pods_MGSocialShareKit_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		24BBDF05A4FF8CA046009C219F8C7728 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				62B9FE4E59692C33EB46757C95092B84 /* MGSocialShareKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4C5C5223BF0E0EF804D2B13EE674CEC6 /* Pods-MGSocialShareKit_Tests */ = {
@@ -129,43 +118,40 @@
 			path = "Target Support Files/Pods-MGSocialShareKit_Example";
 			sourceTree = "<group>";
 		};
+		7243447E5A7003A5871595D53642CE78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B035FF8E1500BABDC2791C984D38B03 /* MGSocialShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				92A8A231B2F9C4D9013A08FAF86F1533 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BA5A7CE3C62B4A775C3D894CFC59400D /* Pods */,
 				1EC29EA8292BCA57AAAA352E4BB93EC1 /* Products */,
 				BCEA8216BD057486ADD425E3CAFE8849 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8BD0E65EED25853E4DCBEC9C8DB4904E /* Pod */ = {
+		8490981A71E483C6D496220B74408D86 /* MGSocialShareKit */ = {
 			isa = PBXGroup;
 			children = (
-				E0A899BF6B6BE0653D96C6AA129EC5ED /* LICENSE */,
-				7916E3BC93C6DFBDB6E733EF0E82FE70 /* MGSocialShareKit.podspec */,
-				CF600BE79B9AA223843D39F4F0C314A1 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		92A8A231B2F9C4D9013A08FAF86F1533 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E7D7E092B391EBD4B4E5010550B2B40 /* MGSocialShareKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9E7D7E092B391EBD4B4E5010550B2B40 /* MGSocialShareKit */ = {
-			isa = PBXGroup;
-			children = (
-				24BBDF05A4FF8CA046009C219F8C7728 /* Frameworks */,
-				8BD0E65EED25853E4DCBEC9C8DB4904E /* Pod */,
+				7243447E5A7003A5871595D53642CE78 /* Frameworks */,
 			);
 			name = MGSocialShareKit;
-			path = ../..;
+			path = MGSocialShareKit;
+			sourceTree = "<group>";
+		};
+		BA5A7CE3C62B4A775C3D894CFC59400D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8490981A71E483C6D496220B74408D86 /* MGSocialShareKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {

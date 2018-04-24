@@ -2,15 +2,15 @@ PODS:
   - MGSocialShareKit (1.0.0)
 
 DEPENDENCIES:
-  - MGSocialShareKit (from `../`)
+  - MGSocialShareKit
 
-EXTERNAL SOURCES:
-  MGSocialShareKit:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MGSocialShareKit
 
 SPEC CHECKSUMS:
-  MGSocialShareKit: de3502e7115e14681a384fdf82ea3afe1ffd6e38
+  MGSocialShareKit: c05cfcf846c0cb0fd1791f897c7e6d0f5e0cb999
 
-PODFILE CHECKSUM: 27d9f72df287ebcff5cc81cb3fe17824ddb84741
+PODFILE CHECKSUM: 802f69e4673911132f9bd0133ee317b6a3b9e2a2
 
 COCOAPODS: 1.5.0
