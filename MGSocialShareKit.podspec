@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'MGSocialShareKit' => ['MGSocialShareKit/Assets/*.png']
   # }
 
-  s.vendored_frameworks = 'MGSocialShareKit/Classes/MGSocialShareKit.framework'
+  s.vendored_frameworks = 'MGSocialShareKit/MGSocialShareKit.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
