@@ -1,4 +1,5 @@
 # MGSocialShareKit
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/HoseaLeee/MGSocialShareKit.svg?style=flat)](https://travis-ci.org/HoseaLeee/MGSocialShareKit)
 [![Version](https://img.shields.io/cocoapods/v/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
@@ -6,11 +7,15 @@
 [![Platform](https://img.shields.io/cocoapods/p/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
 
 ## 前言
+=======
+>>>>>>> 343dc754c16e386593d6648f0337c9d5011a1861
 
 [![CI Status](http://img.shields.io/travis/HoseaLeee/MGSocialShareKit.svg?style=flat)](https://travis-ci.org/HoseaLeee/MGSocialShareKit)
 [![Version](https://img.shields.io/cocoapods/v/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
 [![License](https://img.shields.io/cocoapods/l/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
 [![Platform](https://img.shields.io/cocoapods/p/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
+
+## 前言
 
 MGSocialShareKit 基于[友盟社会化分享](https://mobile.umeng.com/social) 封装的 iOS 分享库，意在解决项目组件化过程中遇到的 Pod 库中 UMengSocial 5.0出现的各种问题，以及Objective-C、swift混合项目中静态库编译错误问题。
 > [!] The 'XXX' target has transitive dependencies that include static binaries: (.../xxx.a)
