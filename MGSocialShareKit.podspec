@@ -10,8 +10,10 @@ Pod::Spec.new do |s|
 
   s.name         = "MGSocialShareKit"
   s.version      = "1.0.0"
-  s.summary      = "A short description of MGSocialShareKit."
+  s.summary      = "基于友盟6.9.0制作的分享组件，包含了国内大部分的平台"
   s.description  = <<-DESC
+
+    基于友盟6.9.0制作的分享组件，包含了国内大部分的平台。微信、QQ、支付宝等。
                    DESC
 
   s.homepage     = "https://github.com/HoseaLeee/MGSocialShareKit"
@@ -68,7 +70,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
- s.vendored_frameworks = 'MGSocialShareKit.framework'
+  s.vendored_frameworks = 'MGSocialShareKit/MGSocialShareKit.framework'
 
 
   # s.public_header_files = "Classes/**/*.h"
