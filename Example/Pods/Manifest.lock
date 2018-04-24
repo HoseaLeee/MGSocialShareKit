@@ -1,0 +1,16 @@
+PODS:
+  - MGSocialShareKit (1.0.0)
+
+DEPENDENCIES:
+  - MGSocialShareKit (from `../`)
+
+EXTERNAL SOURCES:
+  MGSocialShareKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGSocialShareKit: de3502e7115e14681a384fdf82ea3afe1ffd6e38
+
+PODFILE CHECKSUM: 27d9f72df287ebcff5cc81cb3fe17824ddb84741
+
+COCOAPODS: 1.5.0
