@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="coq-kL-OUE">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="MGViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIe-t0-kbm">
+                                <rect key="frame" x="107" y="128" width="160" height="50"/>
+                                <color key="backgroundColor" red="0.53926962609999995" green="0.86595165730000001" blue="0.29943108559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Hua-Tf-e0r"/>
+                                    <constraint firstAttribute="height" constant="50" id="O3J-Aq-B7E"/>
+                                </constraints>
+                                <state key="normal" title="文本分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="kxy-qW-dEC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMo-5l-gwZ">
+                                <rect key="frame" x="107" y="198" width="160" height="50"/>
+                                <color key="backgroundColor" red="0.53926962609999995" green="0.86595165730000001" blue="0.29943108559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="图片分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="TIT-Pu-01O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fE-LF-LLt">
+                                <rect key="frame" x="107" y="268" width="160" height="50"/>
+                                <color key="backgroundColor" red="0.53926962609999995" green="0.86595165730000001" blue="0.29943108559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="图文分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="nmu-gE-tOj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3d3-QB-RJ8">
+                                <rect key="frame" x="107" y="338" width="160" height="50"/>
+                                <color key="backgroundColor" red="0.53926962609999995" green="0.86595165730000001" blue="0.29943108559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="网页分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="VJR-jz-yQM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0PA-8Y-61S">
+                                <rect key="frame" x="107" y="408" width="160" height="50"/>
+                                <color key="backgroundColor" red="0.53926962609999995" green="0.86595165730000001" blue="0.29943108559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="音乐分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="Kgh-AL-c6D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFz-3C-djb">
+                                <rect key="frame" x="107" y="478" width="160" height="50"/>
+                                <color key="backgroundColor" red="0.53926962609999995" green="0.86595165730000001" blue="0.29943108559999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="视频分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="osf-hs-yN6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iMo-5l-gwZ" firstAttribute="top" secondItem="eIe-t0-kbm" secondAttribute="bottom" constant="20" id="2iB-Mt-e7F"/>
+                            <constraint firstItem="0PA-8Y-61S" firstAttribute="width" secondItem="eIe-t0-kbm" secondAttribute="width" id="7OU-HQ-QTs"/>
+                            <constraint firstItem="0PA-8Y-61S" firstAttribute="top" secondItem="3d3-QB-RJ8" secondAttribute="bottom" constant="20" id="7as-L7-kTt"/>
+                            <constraint firstItem="3d3-QB-RJ8" firstAttribute="leading" secondItem="eIe-t0-kbm" secondAttribute="leading" id="D6g-FV-w0l"/>
+                            <constraint firstItem="NFz-3C-djb" firstAttribute="leading" secondItem="eIe-t0-kbm" secondAttribute="leading" id="FFz-XH-OYZ"/>
+                            <constraint firstItem="NFz-3C-djb" firstAttribute="top" secondItem="0PA-8Y-61S" secondAttribute="bottom" constant="20" id="GdK-JK-CTQ"/>
+                            <constraint firstItem="0PA-8Y-61S" firstAttribute="leading" secondItem="eIe-t0-kbm" secondAttribute="leading" id="GoS-06-hAh"/>
+                            <constraint firstItem="3d3-QB-RJ8" firstAttribute="top" secondItem="1fE-LF-LLt" secondAttribute="bottom" constant="20" id="HAW-FW-Fbo"/>
+                            <constraint firstItem="eIe-t0-kbm" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="I2l-pl-cDZ"/>
+                            <constraint firstItem="0PA-8Y-61S" firstAttribute="height" secondItem="eIe-t0-kbm" secondAttribute="height" id="IgP-Qr-v86"/>
+                            <constraint firstItem="1fE-LF-LLt" firstAttribute="leading" secondItem="eIe-t0-kbm" secondAttribute="leading" id="JeD-fq-WwF"/>
+                            <constraint firstItem="NFz-3C-djb" firstAttribute="width" secondItem="eIe-t0-kbm" secondAttribute="width" id="LL9-hY-hfv"/>
+                            <constraint firstItem="iMo-5l-gwZ" firstAttribute="height" secondItem="eIe-t0-kbm" secondAttribute="height" id="OQq-wD-2Xf"/>
+                            <constraint firstItem="NFz-3C-djb" firstAttribute="height" secondItem="eIe-t0-kbm" secondAttribute="height" id="PhE-O2-VPC"/>
+                            <constraint firstItem="3d3-QB-RJ8" firstAttribute="width" secondItem="eIe-t0-kbm" secondAttribute="width" id="V00-3y-d2Q"/>
+                            <constraint firstItem="iMo-5l-gwZ" firstAttribute="leading" secondItem="eIe-t0-kbm" secondAttribute="leading" id="XP3-Ti-0pb"/>
+                            <constraint firstItem="1fE-LF-LLt" firstAttribute="width" secondItem="eIe-t0-kbm" secondAttribute="width" id="XYf-Hl-ddC"/>
+                            <constraint firstItem="iMo-5l-gwZ" firstAttribute="width" secondItem="eIe-t0-kbm" secondAttribute="width" id="f5r-hX-NUg"/>
+                            <constraint firstItem="eIe-t0-kbm" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="64" id="ks7-aA-tEO"/>
+                            <constraint firstItem="1fE-LF-LLt" firstAttribute="top" secondItem="iMo-5l-gwZ" secondAttribute="bottom" constant="20" id="y2m-bk-O9D"/>
+                            <constraint firstItem="1fE-LF-LLt" firstAttribute="height" secondItem="eIe-t0-kbm" secondAttribute="height" id="ygB-46-CPR"/>
+                            <constraint firstItem="3d3-QB-RJ8" firstAttribute="height" secondItem="eIe-t0-kbm" secondAttribute="height" id="zGI-nh-EAX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dkp-VC-xat"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1244" y="432.23388305847078"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Pnl-a1-N90">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="coq-kL-OUE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xzs-P0-xdu">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="whP-gf-Uak" kind="relationship" relationship="rootViewController" id="6Vl-mK-ZJs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rop-kL-uam" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+</document>
