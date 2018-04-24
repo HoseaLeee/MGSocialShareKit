@@ -1,0 +1,6 @@
+framework module MGSocialShareKit {
+  umbrella header "MGSocialShareKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
