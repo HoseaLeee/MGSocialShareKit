@@ -22,12 +22,52 @@ iOS 8以上
 
 ## 安装
 
-你可以在 Podfile 中加入下面一行代码来使用 MGSocialShareKit
+MGSocialShareKit 支持 CocoaPods 和 Carthage.
 
-   pod 'MGSocialShareKit'
+### 使用 CocoaPods 集成
 
-然后运行命令：
-  $ pod install
+使用下面命令安装[CocoaPods](http://cocoapods.org):
+
+```bash
+$ gem install cocoapods
+```
+
+#### Podfile
+
+你可以在 Podfile 中加入下面一行代码来使用 MGSocialShareKit:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'TargetName' do
+pod 'MGSocialShareKit', '~> 1.0'
+end
+```
+
+然后运行如下命令:
+
+```bash
+$ pod install
+```
+
+### 使用 Carthage 集成
+
+
+使用 Homebrew 安装 Carthage:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+在 Cartfile 中加入下面的代码以使用 MGSocialShareKit
+
+
+```ogdl
+github "HoseaLeee/MGSocialShareKit" ~> 1.0
+```
+
 
 
 ## 对应友盟SDK版本
