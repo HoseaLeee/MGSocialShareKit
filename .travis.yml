@@ -1,4 +1,4 @@
-osx_image: xcode9
+osx_image: xcode9.3
 language: objective-c
 
 cache: cocoapods
@@ -15,7 +15,7 @@ env:
 before_install:
   - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
   - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
-  - pod install --project-directory=Example
+  - pod install --project-directory = Example
   - brew update
   - brew outdated carthage || brew upgrade carthage
 
