@@ -1,19 +1,10 @@
 # MGSocialShareKit
-<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/HoseaLeee/MGSocialShareKit.svg?style=flat)](https://travis-ci.org/HoseaLeee/MGSocialShareKit)
 [![Version](https://img.shields.io/cocoapods/v/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
 [![License](https://img.shields.io/cocoapods/l/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
 [![Platform](https://img.shields.io/cocoapods/p/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
 
-## 前言
-=======
->>>>>>> 343dc754c16e386593d6648f0337c9d5011a1861
-
-[![CI Status](http://img.shields.io/travis/HoseaLeee/MGSocialShareKit.svg?style=flat)](https://travis-ci.org/HoseaLeee/MGSocialShareKit)
-[![Version](https://img.shields.io/cocoapods/v/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
-[![License](https://img.shields.io/cocoapods/l/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
-[![Platform](https://img.shields.io/cocoapods/p/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
 
 ## 前言
 
