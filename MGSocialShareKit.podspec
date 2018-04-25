@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MGSocialShareKit'
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "基于友盟6.9.0制作的分享组件，包含了国内大部分的平台"
 
 # This description is used to generate tags and improve search results.
