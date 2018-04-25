@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
 [![License](https://img.shields.io/cocoapods/l/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
 [![Platform](https://img.shields.io/cocoapods/p/MGSocialShareKit.svg?style=flat)](http://cocoapods.org/pods/MGSocialShareKit)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
 ## 前言
